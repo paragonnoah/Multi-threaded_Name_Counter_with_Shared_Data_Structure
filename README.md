@@ -9,7 +9,9 @@ gcc -D_REENTRANT -pthread -o countnames_threaded countnames_threaded.c -Wall -We
 
 To run the program, provide two input files as command-line arguments:
 ''' 
+
 ./countansmes_threaded file1.txt file2.txt 
+
 '''
 
 # Implementation Details
