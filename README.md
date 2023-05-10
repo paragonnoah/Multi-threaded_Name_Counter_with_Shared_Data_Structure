@@ -3,16 +3,15 @@ This program employs multi-threading in C language to count names from two input
 
 # Installation and Usage
 To compile the program, run the following command in the terminal:  
-''' 
+```
 gcc -D_REENTRANT -pthread -o countnames_threaded countnames_threaded.c -Wall -Werror 
-'''
+```
 
 To run the program, provide two input files as command-line arguments:
-''' 
-
+```
 ./countansmes_threaded file1.txt file2.txt 
 
-'''
+```
 
 # Implementation Details
 The program uses two threads, with Thread 1 reading names from one file and Thread 2 reading names from the other file. Each thread updates a shared name counts data structure with the counts of names. The program uses a hash table as the data structure to avoid locking an entire array, which would be slow.
