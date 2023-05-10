@@ -2,7 +2,7 @@
 This program employs multi-threading in C language to count names from two input files and update a shared data structure. The functionality is the same as Assignment 2, but we have simplified things by assuming that there are exactly two input files of names. If the user provides one or more than two files, the program will print a suitable error message and exit.
 
 # Installation and Usage
-To compile the program, run the following command in the terminal:
+To compile the program, run the following command in the terminal:  
 ''' gcc -D_REENTRANT -pthread -o countnames_threaded countnames_threaded.c -Wall -Werror '''
 
 To run the program, provide two input files as command-line arguments:
