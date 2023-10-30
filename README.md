@@ -3,7 +3,9 @@ This program employs multi-threading in C language to count names from two input
 
 # Installation and Usage
 To compile the program, run the following command in the terminal:
-'''gcc -D_REENTRANT -pthread -o countnames_threaded countnames_threaded.c -Wall -Werror'''
+'''
+gcc -D_REENTRANT -pthread -o countnames_threaded countnames_threaded.c -Wall -Werror
+'''
 
 To run the program, provide two input files as command-line arguments:
 ''' ./countansmes_threaded file1.txt file2.txt'''
@@ -23,3 +25,4 @@ Adding support for variable numbers of input files
 Allowing the user to specify the maximum number of names and the maximum name length
 Implementing a more efficient data structure for name counts
 Adding support for non-ASCII characters in names
+# advance_threading
